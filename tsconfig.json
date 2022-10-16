@@ -1,6 +1,8 @@
 {
   "extends": "./node_modules/gts/tsconfig-google.json",
   "compilerOptions": {
+    "types": ["node", "jest"],
+    "forceConsistentCasingInFileNames": true,
     "rootDir": ".",
     "outDir": "build"
   },
