@@ -19,5 +19,5 @@ jobs:
         with:
           node-version: '16'
       - run: npm install
-      - run: npm prepare
+      - run: npm run prepare 
       - run: npm test
